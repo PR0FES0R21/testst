@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Offcanvas Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon-hamster-container">
+            <img class="hamster-icon" src="images/image1.png" alt="">
+        </div>
+        <div class="airdrop-information">
+            <h2>Airdrop tasks</h2>
+            <p>Listing sedang dalam proses. Tugas akan muncul di bawah. Selesaikan mereka untuk berpartisipasi dalam
+                Airdrop</p>
+        </div>
+
+        <div class="tasks">
+            Daftar Tugas
+        </div>
+
+        <div class="list-task-container mt-3">
+            <div class="row list-task align-items-center justify-content-between">
+                <div class="col-auto">
+                    <div class="wallet-image">
+                        <img src="images/image2.png" alt="">
+                        Hubungkan dompet TON Anda
+                    </div>
+                </div>
+                <div class="col-auto justify-content-end check-icon">
+                    <i class="bi bi-check-circle-fill"></i>
+                </div>
+            </div>
+        </div>
+        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample">
+            Toggle Offcanvas
+        </button> -->
+
+        <!-- Offcanvas element -->
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>This is the offcanvas body content.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

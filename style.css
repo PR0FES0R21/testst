@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #000000;
+}
+
+.offcanvas-header .btn-close {
+    background-color: rgba(123, 123, 123, 0.75);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.offcanvas-header .btn-close svg {
+    fill: white;
+}
+
+.offcanvas.offcanvas-bottom {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid gold;
+    box-shadow: 0 0 10px rgba(255, 223, 0, 0.8);
+    background-color: #232622;
+}
+
+.hamster-icon {
+    width: 50%;
+}
+
+.icon-hamster-container {
+    display: flex;
+    justify-content: center;
+}
+
+.airdrop-information {
+    color: #fff;
+    text-align: center;
+    margin-top: -50px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.airdrop-information h2 {
+    font-weight: bold;
+}
+
+.tasks {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.wallet-image {
+    font-size: 12px;
+}
+
+.wallet-image img {
+    width: 40px;
+    padding: 5px 0;
+}
+
+.list-task-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-task {
+    background-color: rgb(5, 126, 239);
+    width: 100%;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.check-icon i {
+    font-size: 1.4rem;
+}
